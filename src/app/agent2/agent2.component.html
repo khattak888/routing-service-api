@@ -1,0 +1,9 @@
+<h2>Agent2 Booking</h2>
+<input type="text" #ticknum1>
+<button (click)="bookTicket1(ticknum1.value)">Book Ticket</button>
+
+<ul>
+    <li *ngFor="let data of ticket2">
+        {{data}}
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+<h2>Agent1 Booking</h2>
+<!-- <hr> -->
+<input type="text" #ticknum>
+<button (click)="bookTicket1(ticknum.value)">Book Ticket</button>
+
+<ul>
+    <li *ngFor="let data of ticket1">
+        {{data}}
+    </li>
+</ul>
